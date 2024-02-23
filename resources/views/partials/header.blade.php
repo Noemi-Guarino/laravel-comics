@@ -20,6 +20,8 @@
 
 <header>
     <nav>
+        we
+        <h1>we</h1>
         <ul>
             @foreach ($links as $link)
                 <li>
