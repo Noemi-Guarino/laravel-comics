@@ -17,7 +17,7 @@
                     </div>
                     @endforeach
                 </div>
-                <div>
+                <div class="d-flex align-items-center">
                     <button class="button mainbutton">Load  more</button>                
                 </div>
             </div>
