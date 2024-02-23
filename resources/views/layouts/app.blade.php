@@ -7,7 +7,7 @@
         <title>@yield('page-title') | Comics</title>
 
         {{-- Stili nell'head --}}
-        <link rel="stylesheet" href="public/css/style.css">
+        <link rel="stylesheet" href="scss/app.scss">
 
         {{-- <!-- Includiamo gli assets con la direttiva @vite --> --}}
         @vite('resources/js/app.js')
