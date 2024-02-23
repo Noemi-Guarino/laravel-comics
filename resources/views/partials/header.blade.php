@@ -1,4 +1,4 @@
-@php
+<!-- @php
     $links = [
         [
             'url' => '/',
@@ -20,8 +20,7 @@
 
 <header>
     <nav>
-        we
-        <h1>we</h1>
+        questo è il mio header
         <ul>
             @foreach ($links as $link)
                 <li>
@@ -38,4 +37,8 @@
             @endforeach
         </ul>
     </nav>
+</header> -->
+
+<header>
+    QUESTO è IL MIO HEADER
 </header>
