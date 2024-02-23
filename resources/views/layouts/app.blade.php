@@ -14,10 +14,10 @@
 
         @yield('head-imports')
     </head>
-    <body class="d-flex flex-column">
+    <body class="">
     @include('partials.header')
 
-    <main class="flex-grow-1">
+    <main class="">
         @yield('main-content')
     </main>
 
