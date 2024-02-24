@@ -26,6 +26,16 @@ header{
     // background-image: url("public/images/jumbotron.jpg");
 }
 
+.jumbotron_container{
+    position: relative;
+    bottom: -30px;
+
+}
+
+.tag{
+    position: absolute;
+}
+
 body{
     background-color: black;
 
@@ -69,7 +79,9 @@ ul{
 
 .mainbutton{
     background-color: #0282F9;
+    border: 2px solid orange;
 }
+
 // .gatto-img {
 //     height: 200px;
 // }
