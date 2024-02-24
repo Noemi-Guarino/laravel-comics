@@ -64,7 +64,7 @@
 <header>
     <div class="container d-flex align-items-center justify-content-between p-4">
         <div class="img_logo">
-            <img class="gatto-img" src="{{ Vite::asset('public/images/dc-logo.png') }}" alt="Gatto"> 
+            <img class="" src="{{ Vite::asset('public/images/dc-logo.png') }}" alt="Gatto"> 
         </div>
         <div class=>
             <nav>
@@ -86,6 +86,6 @@
         </div>
     </div>
     <div>
-        <img class="gatto-img" src="{{ Vite::asset('public/images/dc-logo.png') }}" alt="Gatto"> 
+        <img class="img_jumbotron" src="{{ Vite::asset('public/images/jumbotron.jpg') }}" alt="Gatto">
     </div>
 </header>
