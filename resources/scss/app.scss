@@ -1,4 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
+@import "resources/scss/partials/mixins.scss";
+
 
 
 header{
@@ -79,15 +81,37 @@ ul{
 
 .mainbutton{
     background-color: #0282F9;
-    border: 2px solid orange;
 }
 
-// .gatto-img {
-//     height: 200px;
-// }
+.under_main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+}
 
-// .gatto-bg {
-//     height: 200px;
-//     background-image: url('../img/gatto.webp');
-//     background-size: contain;
-// }
+.asset_icon_main{
+    background-color: #0282F9 ;
+    padding: 40px;
+}
+
+.asset_icon_main_content{
+    @include my-display-flex-sa;
+}
+
+.assetsitems{
+    @include my-display-flex-center;
+    margin: 20px;
+    color: white;
+}
+
+.assets_container_img{
+    // border: 2px solid yellow;
+    margin-bottom: 20px;
+    > img{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+}

@@ -86,6 +86,13 @@
         </div>
     </div>
     <div>
-        <img class="img_jumbotron" src="{{ Vite::asset('public/images/jumbotron.jpg') }}" alt="Gatto">
+        <div class="jumbotron_container">
+            <img class="img_jumbotron" src="{{ Vite::asset('public/images/jumbotron.jpg') }}" alt="jumbotron">
+        </div>
+        <div class="container">
+            <div class="button mainbutton tag">
+                <h2>Current Series</h2>
+            </div>
+        </div>
     </div>
 </header>

@@ -1,0 +1,16 @@
+@mixin my-display-flex-sb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin my-display-flex-sa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin my-display-flex-center{
+    display: flex;
+    align-items: center;
+}
