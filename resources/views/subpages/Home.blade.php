@@ -6,7 +6,7 @@
         <section>
             <div class="container py-5 mt-5 text-center">
                 <div class="mycards d-flex flex-wrap">
-                    @foreach( $comics as $index => $comic )
+                    @foreach( $comics as $comic )
                     <div class="mycard d-flex flex-column m-3">
                         <div class="imgcard">
                             <img src="{{ $comic['thumb'] }}" alt="{{ $comic['thumb'] }}">
